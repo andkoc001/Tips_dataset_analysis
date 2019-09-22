@@ -43,7 +43,6 @@ Lecturer: dr Ian McLoughlin
 
 The data set is named after Ronald Fisher, a biologist. He made a significant contribution to development of statistics.
 
-
 ### 2.2 Insight into raw data
 
 Raw dataset, as a .csv file, obtained from: <http://vincentarelbundock.github.io/Rdatasets/datasets.html>.
