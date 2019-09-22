@@ -49,13 +49,13 @@ The data set is named after Ronald Fisher, a biologist. He made a significant co
 Raw dataset, as a .csv file, obtained from: <http://vincentarelbundock.github.io/Rdatasets/datasets.html>.
 
 The first few rows look like this:  
-(to be added...)
+![Tips_dataset](tips_dataset_insight.png)
 
 A quick review of the raw data in the csv file reveals the following findings:
 
-1. The data set is organised in 5 columns - first 4 containing attributes (or features) and the last one describing the class, and 150 rows - instances.
-2. Each iris species has 50 instances of data.
-3. Columns 1 to 4 consist of `float` type numbers (lengths and widths of sepals and petals in cm), whereas 5th column is of `string` type (iris species).
+1. The data set is organised in 8 columns, and 244 rows - instances (excluding the headers).
+2. Columns 1 is an `int` type and consist of the instance number.
+3. (to be updated...)
 
 ## 3 Tools used for the data analysis
 
