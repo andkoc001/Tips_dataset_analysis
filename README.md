@@ -25,9 +25,13 @@ ___
 
 ## 1. Introduction
 
-This is an excercise of a dataset analysis as part of the Fundamentals of Data Analysis module, Galway-Mayo Institute of Technology, 2019.
+This is an excercise of a dataset analysis, based on Seaborn tutorial: <https://seaborn.pydata.org/tutorial.html>
 
-This repository documents my research, project progress (including comments for my future reference) and findings to tips given in a restaurant dataset (obtained from <http://vincentarelbundock.github.io/Rdatasets/datasets.html>)
+This is exercise is done under the Fundamentals of Data Analysis module, Galway-Mayo Institute of Technology, 2019.
+
+This GitHub repository documents my research, project progress (including comments for my future reference) and findings.
+
+The dataset, obtained from <http://vincentarelbundock.github.io/Rdatasets/datasets.html> (but also comes with the Seaborn package), represents tips given in a restaurant.
 
 This project is intended to furhter familiarisation with data analytics. The data set was chosen for its relative simplicity.
 
