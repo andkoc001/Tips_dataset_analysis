@@ -1,11 +1,12 @@
 # Tips_dataset_analysis
+Fundametals of Data Analysis - assignment project, GMIT 2019
 
 >Author: **Andrzej Kocielski**  
 >Github: [andkoc001](https://github.com/andkoc001/)  
 >Email: G00376291@gmit.ie, and.koc001@gmail.com
 
 Created: 22-09-2019,
-Last update: 22-09-2019  
+Last update: 29-09-2019  
 
 ___
 
@@ -18,34 +19,37 @@ ___
 3. Tools used for the data analysis
    1. Python language, libraries and modules
    2. Jupyter Notebook
-3. The analysis
-4. Findings and conclusion  
+4. The analysis
+5. Findings and conclusion  
 References
 ___
 
 ## 1. Introduction
 
-This is an excercise of a dataset analysis, based on Seaborn tutorial: <https://seaborn.pydata.org/tutorial.html>
+This is my assignment project to Fundametals of Data Analysis module, Galway-Mayo Institute of Technology, 2019. Lecturer: dr Ian McLoughlin.
 
-This is exercise is done under the Fundamentals of Data Analysis module, Galway-Mayo Institute of Technology, 2019.
-
-This GitHub repository documents my research, project progress (including comments for my future reference) and findings.
-
-The dataset, obtained from <http://vincentarelbundock.github.io/Rdatasets/datasets.html> (but also comes with the Seaborn package), represents tips given in a restaurant.
+This GitHub repository documents my research, project progress (including comments for my future reference) and findings of the `Tips` data set analysis.
 
 This project is intended to furhter familiarisation with data analytics. The data set was chosen for its relative simplicity.
 
-The intention of the project is to get practical understanding of handling data in Python environment.  It is also intended to get familiar with the analytical tools. The tools include Python language and additional packages (Pandas, Numpy, Seaborn, etc.) as well as Jupyter Notbook.
+The intention of the project is to get practical understanding of handling data in Python environment. It is also intended to get familiar with the analytical tools. The tools include Python language and additional packages (Pandas, Numpy, Seaborn, etc.) as well as Jupyter Notbook.
 
-As an outcome of the excercie, it is hoped to become acquentant with data analytics concepts, including data types and structures handling, data splicing, plots generation and interpretation.
+The primary objectives are as follows:
+- Data description,
+- Regression,
+- Analyse.
 
-Lecturer: dr Ian McLoughlin
+As an outcome of the excercie, it is hoped to become acquentant with data analytics concepts, including data types and structures handling, data splicing, plots generation and interpretation. It is also hoped to get good marks for the module!
 
 ## 2. The data set
 
 ### 2.1 Origin
 
-The data set is named after Ronald Fisher, a biologist. He made a significant contribution to development of statistics.
+The dataset and is a representation of tips given in a restaurant.
+
+The dataset is integrated with the [Seaborn]<https://seaborn.pydata.org/> package, an external Python package for data visualisation.
+
+The dataset can be also obtained from <http://vincentarelbundock.github.io/Rdatasets/datasets.html>.
 
 ### 2.2 Insight into raw data
 
@@ -104,11 +108,11 @@ ___
 
 ### Project and the data set related
 
-- Raw dataset obtained from: <http://archive.ics.uci.edu/ml/machine-learning-databases/iris/>
+- Raw dataset obtained from: <http://vincentarelbundock.github.io/Rdatasets/datasets.html>
 
 ### General Python related
 
-- GMIT Programming and Scripting module materials: <https://learnonline.gmit.ie/course/view.php?id=1588#section-0>
+- GMIT Fundamentals of Data Analysis module materials on Moodle platform (access may be restricted for staff and students): <https://learnonline.gmit.ie/course/view.php?id=689>
 - Python 3 tutorial documentation: <https://docs.python.org/3/tutorial/>
 - A Whirlpool Tour of Python by Jake VanderPlas: <https://www.oreilly.com/programming/free/files/a-whirlwind-tour-of-python.pdf>
 - The Coder's Apprentice by Pieter Spronock: <http://spronck.net/pythonbook/pythonbook.pdf>
@@ -131,8 +135,9 @@ ___
 - Jupyter tips and tricks: <https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/>
 - Seaborn tutorial: <https://seaborn.pydata.org/tutorial.html>
 
-### Data analysis
+### Data analysis, Deep Learning, Machine Learning, Statistics
 
+- Seaborn tutorial: <https://seaborn.pydata.org/tutorial.html>
 - A Complete Tutorial to Learn Data Science with Python from Scratch: <https://www.analyticsvidhya.com/blog/2016/01/complete-tutorial-learn-data-science-python-scratch-2/>
 - The ultimate machine learning course with python in 6 steps: <https://copycoding.com/d/the-practical-guide-to-learn-machine-learning-with-python-in-12-steps->
 - Tutorial to data analysis: <https://machinelearningmastery.com/machine-learning-in-python-step-by-step/>
