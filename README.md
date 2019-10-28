@@ -1,72 +1,67 @@
 # Tips_dataset_analysis
-Fundametals of Data Analysis - assignment project, GMIT 2019
+Fundamentals of Data Analysis - assignment project, GMIT 2019
+
+Lecturer: dr Ian McLoughlin
 
 >Author: **Andrzej Kocielski**  
 >Github: [andkoc001](https://github.com/andkoc001/)  
 >Email: G00376291@gmit.ie, and.koc001@gmail.com
 
 Created: 22-09-2019,
-Last update: 29-09-2019  
 
 ___
 
 ## Content (to be updated)
 
 1. Introduction
-2. The data set
-   1. Origin
-   2. Insight into raw data
-3. Tools used for the data analysis
+2. Tools used for the data analysis
    1. Python language, libraries and modules
    2. Jupyter Notebook
-4. The analysis
-5. Findings and conclusion  
+   3. Statistical methods, (linear regression, etc.)
+3. Findings and conclusion  
 References
 ___
 
 ## 1. Introduction
 
-This is my assignment project to Fundametals of Data Analysis module, Galway-Mayo Institute of Technology, 2019. Lecturer: dr Ian McLoughlin.
+This is my assignment project to Fundamentals of Data Analysis module, Galway-Mayo Institute of Technology, 2019.
 
-This GitHub repository documents my research, project progress (including comments for my future reference) and findings of the `Tips` data set analysis.
+This GitHub repository documents my research, project progress (git version control) and findings of the _tips data set_ analysis.
 
-This project is intended to furhter familiarisation with data analytics. The data set was chosen for its relative simplicity.
-
-The intention of the project is to get practical understanding of handling data in Python environment. It is also intended to get familiar with the analytical tools. The tools include Python language and additional packages (Pandas, Numpy, Seaborn, etc.) as well as Jupyter Notbook.
+The detailed project instructions: <https://github.com/ianmcloughlin/project-2019-fundda/raw/master/project.pdf>
 
 The primary objectives are as follows:
-- Data description,
-- Regression,
-- Analyse.
+- Data description (descriptive and visualisation),
+- Regression (relationship between total bill and tips),
+- Analyse (relationship between the variables).
 
-As an outcome of the excercie, it is hoped to become acquentant with data analytics concepts, including data types and structures handling, data splicing, plots generation and interpretation. It is also hoped to get good marks for the module!
+This project is intended to further familiarisation with data analytics. The project will allow to get practical understanding of handling data in Python environment. It is also intended to get familiar with the analytical tools. The tools include Python language with additional libraries like Pandas, Numpy, Seaborn, etc. as well as Jupyter Notbook.
 
-## 2. The data set
+It is also intended to gain knowledge and understanding through practical exercises about data analysis algorithms and methods. These in particular, would include linear regression, grouping, correlations, classification and pattern recognition.
 
-### 2.1 Origin
+As an outcome of the project, it is hoped to become more proficient in data analytics concepts and methods, including data types and structures handling, data splicing, plots generation and interpretation.
 
-The dataset and is a representation of tips given in a restaurant.
+As it is a learning exercise for me, I have made attempt to comment various functionalities not only for readability but also for my future reference.
 
-The dataset is integrated with the [Seaborn]<https://seaborn.pydata.org/> package, an external Python package for data visualisation.
+### Assignment delivery
 
-The dataset can be also obtained from <http://vincentarelbundock.github.io/Rdatasets/datasets.html>.
+The project is delivered via this GitHub [repository](https://github.com/andkoc001/Tips_dataset_analysis/).
 
-### 2.2 Insight into raw data
+This README.md file contains only introduction to the project.
 
-Raw dataset, as a .csv file, obtained from: <http://vincentarelbundock.github.io/Rdatasets/datasets.html>.
+The analysis is is conducted within Jupyter Notebook [Tips_dataset_analysis](https://github.com/andkoc001/Tips_dataset_analysis.ipynb). The notebook include also my research description and findings are incorporated in the Jupyter Notebook.
 
-The first few rows look like this:  
-![Tips_dataset](tips_dataset_insight.png)
+Within the Notebook I test and describe the project progress and illustrate the applied concepts and methods together with code snippets as well as program outputs. This README.md file should be read in conjunction with the Notebook.
 
-A quick review of the raw data in the csv file reveals the following findings:
+Furthermore, the repository include another Notebook, [Tips_dataset_sandbox](https://github.com/andkoc001/Tips_dataset_sandbox.ipynb). It is an unofficial part of my research - my sandbox dedicated for exploring and testing ideas to be later used in the actual analysis.
 
-1. The data set is organised in 8 columns, and 244 rows - instances (excluding the headers).
-2. Columns 1 is an `int` type and consist of the instance number.
-3. (to be updated...)
+### The data set
 
-## 3 Tools used for the data analysis
+The _tips dataset_ being analysed is well known dataset describing tips received in a restaurant. More details can be found in the Notebook.
 
-### 3.1 Python language, libraries and modules
+## 2. Tools used for the data analysis
+
+### Python language, libraries and modules
 
 Python programming language is acclaimed for its capacity of handling large amount of data in scientific community of different specialisation. Its natural functionality has been extended by development of external libraries dedicated for specific purposes. Below are listed several I used for accomplishment of this project.
 
@@ -79,72 +74,51 @@ Python programming language is acclaimed for its capacity of handling large amou
 4. Seaborn
    >Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics. - seaborn.pydata.org
 
-## 4. The analysis
 
-The analysis was initially intended to be carried out using Python scripts. However, in due course, the advantages of Jupyter Notebook tool has been  recognised, resulting in migration of the analysis from Python scripts to corresponding Jupyter Notebook.
+## 3. Findings and conclusion
 
-A Jupyter Notebook for the project is created: **`Tips_dataset_analysis.ipynb`**. The analysis description, progress and results have been recorded in the Jupyter Notebook.
-
-The program and the Jupyter Notebook are reposited at: <https://github.com/andkoc001/Tips_dataset_analysis/>.
-
-### 4.1 Variables
-
-The following are the variables I created and used for completion of the project - listed here for reference.
-
-| \#  | Variable | Type      | Description      |
-| --- | -------- | --------- | ---------------- |
-| 1   | `aaa`    | DataFrame | (to be added...) |
-| 2   | `bbbb`   | DataFrame | (to be added...) |
-
-## 5. Findings and conclusion
+Data analysis is a powerful technique in relation to objects classification and machine learning. The tools used in the project - Python language and its libraries - offer a lot of functionality, of which just few were utilised in this project.
 
 (Findings to be added...)
-
-Data analysis is a powerful technique in relation to objects classification and machine learning. The tools used in the project - Python language and its libraries - offer a lot of functionality, of which just few were utilised. Much more is still to be learnt.
 
 ___
 
 ## References
 
+General, high-level, reference sources are listed below.  
+Reference to specific problems are included in the Notebook.
+
 ### Project and the data set related
 
 - Raw dataset obtained from: <http://vincentarelbundock.github.io/Rdatasets/datasets.html>
 
+### Project related
+- GMIT Fundamentals of Data Analysis module materials on Moodle platform (access may be restricted for staff and students): <https://learnonline.gmit.ie/course/view.php?id=689>
+
 ### General Python related
 
-- GMIT Fundamentals of Data Analysis module materials on Moodle platform (access may be restricted for staff and students): <https://learnonline.gmit.ie/course/view.php?id=689>
 - Python 3 tutorial documentation: <https://docs.python.org/3/tutorial/>
 - A Whirlpool Tour of Python by Jake VanderPlas: <https://www.oreilly.com/programming/free/files/a-whirlwind-tour-of-python.pdf>
 - The Coder's Apprentice by Pieter Spronock: <http://spronck.net/pythonbook/pythonbook.pdf>
 - Python reference: <https://www.w3schools.com/python/python_reference.asp>
-- Modules vs Packages vs Libraries in Python: <https://knowpapa.com/modpaclib-py/>
-- Python tutorial for beginners: <https://codewithmosh.com>, <https://youtu.be/_uQrJ0TkZlc>
-- Stack Overflow forum: <https://stackoverflow.com>
-- Python puzzles: <https://blog.finxter.com/>
 
 ### Python modules and packages
 
-- Intro to Python packages: <https://data36.com/python-libraries-packages-data-scientists/>
-- Anaconda User Guide: <https://docs.anaconda.com/anaconda/user-guide/>
 - Matplotlib documentation: <https://matplotlib.org/contents.html>
-- 10 Minutes to Pandas: <https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html>
 - Pandas tutorial: <http://www.datasciencemadesimple.com/head-and-tail-in-python-pandas/>
 - Pyplot Tutorial: <https://matplotlib.org/users/pyplot_tutorial.html>
 - Jupyter documentation: <https://jupyter.org/documentation>
-- Jupyter intro: <https://medium.com/ibm-data-science-experience/back-to-basics-jupyter-notebooks-dfcdc19c54bc>
-- Jupyter tips and tricks: <https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/>
 - Seaborn tutorial: <https://seaborn.pydata.org/tutorial.html>
+- Seaborn [tutorial](https://seaborn.pydata.org/tutorial.html)
 
 ### Data analysis, Deep Learning, Machine Learning, Statistics
 
-- Seaborn tutorial: <https://seaborn.pydata.org/tutorial.html>
 - A Complete Tutorial to Learn Data Science with Python from Scratch: <https://www.analyticsvidhya.com/blog/2016/01/complete-tutorial-learn-data-science-python-scratch-2/>
 - The ultimate machine learning course with python in 6 steps: <https://copycoding.com/d/the-practical-guide-to-learn-machine-learning-with-python-in-12-steps->
 - Tutorial to data analysis: <https://machinelearningmastery.com/machine-learning-in-python-step-by-step/>
 - Data visualisation in Python: <https://medium.com/python-pandemonium/data-visualization-in-python-line-graph-in-matplotlib-9dfd0016d180>
 - DataFrame tutorial: <https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python>
-- iris data analysis example: <https://www.slideshare.net/thoi_gian/iris-data-analysis-with-r>
-- Classifying Species of Iris Flowers: <https://www.kaggle.com/anthonyhills/classifying-species-of-iris-flowers>
+
 
 ### Github and Markdown
 
@@ -154,4 +128,4 @@ ___
 
 ### Fellow students
 
-Much inspiration, ideas, directions and solutions throughout the project has been obtained from my fellow students of the course. Thank you all!
+Much inspiration, ideas, directions and solutions throughout the project has been provided from fellow students. Thank you all!
