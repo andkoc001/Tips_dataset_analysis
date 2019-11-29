@@ -42,11 +42,10 @@ As it is a learning exercise for me, I have made attempt to comment various func
 
 The project is delivered via this GitHub [repository](https://github.com/andkoc001/Tips_dataset_analysis/blob/master/Tips_dataset_sandbox.ipynb).
 
-This README.md file contains background information and introduction to the project. This README.md file should be read in conjunction with the Jupyter Notebook [Tips_dataset_analysis](https://github.com/andkoc001/Tips_dataset_analysis.ipynb), where the dataset analysis is conducted. 
+This README.md file contains background information and introduction to the project. This README.md file should be read in conjunction with the Jupyter Notebook [Tips_dataset_analysis](https://github.com/andkoc001/Tips_dataset_analysis/blob/master/Tips_dataset_analysis.ipynb), where the dataset analysis is conducted. 
 
 In the notebook I have incorporated the research and described the project progress. It is illustrated the applied concepts and methods together with relevant code snippets. The notebook includes also the calculated outputs and plots with accompanied description. Finally, inside the notebook I have included also references to sources being consulted for this assignment.
 
-In the repository, there is another Notebook, [Tips_dataset_sandbox](https://github.com/andkoc001/Tips_dataset_sandbox.ipynb). It is an unofficial part of my research - it was used for testing ideas to be later used in the actual analysis. Please ignore it for the assessment.
 
 ### Viewing the Notebook
 
