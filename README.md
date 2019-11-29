@@ -19,9 +19,9 @@ This GitHub repository documents my research, project progress (git version cont
 
 ## Assignment objectives
 
-The assignment concerns the _tips dataset_ analysis.
+The assignment concerns the _**tips dataset**_ analysis.
 
-The _tips dataset_ being analysed is well known dataset describing tips received in a restaurant. More details can be found in the Notebook.
+The _tips dataset_ being analysed is well known dataset describing tips given in a restaurant on top of the bill. More details can be found in the Notebook.
 
 The primary objectives are as follows:
 - Data description (descriptive and visualisation),
@@ -40,7 +40,7 @@ As it is a learning exercise for me, I have made attempt to comment various func
 
 ### Project delivery
 
-The project is delivered via this GitHub [repository](https://github.com/andkoc001/Tips_dataset_analysis/).
+The project is delivered via this GitHub [repository](https://github.com/andkoc001/Tips_dataset_analysis/blob/master/Tips_dataset_sandbox.ipynb).
 
 This README.md file contains background information and introduction to the project. This README.md file should be read in conjunction with the Jupyter Notebook [Tips_dataset_analysis](https://github.com/andkoc001/Tips_dataset_analysis.ipynb), where the dataset analysis is conducted. 
 
@@ -96,11 +96,6 @@ General, high-level, reference sources are listed below. References to specific 
 
 - [An Introduction to Version Control Using GitHub Desktop](https://programminghistorian.org/en/lessons/getting-started-with-github-desktop)
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-
-### Fellow students
-
-Much inspiration, ideas, directions and solutions throughout the project has been provided from fellow students. Thank you all!
-
 
 ___
 Andrzej Kocielski
